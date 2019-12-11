@@ -1,0 +1,30 @@
+/* Flaired edges, by Tomas Theunissen */
+.hr-container {
+	width: 100px;
+	height: 1px;
+	background-color: black;
+	position: relative;
+
+	.circle {
+		display: inline-block;
+		vertical-align: middle;
+		width: 10px;
+		height: 10px;
+		background-color: white;
+		border: solid 1px black;
+		border-radius: 50%;
+		position: absolute;
+		top: -6px;
+		left: calc(50% - 5px);
+	  }
+
+  }
+
+  .hr-blue {
+	margin-top: 20px;
+	background: #3EB2EF;
+  }
+  .hr-blue .circle {
+	background: #3EB2EF;
+	border-color: #3EB2EF;
+  }

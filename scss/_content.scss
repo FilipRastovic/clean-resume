@@ -1,0 +1,41 @@
+.content {
+	padding: 20px 15px;
+	background: $content-bg-light;
+	display: none;
+
+	&.active {
+		display: block;
+	}
+
+	
+
+	@media ( min-width: 768px ) {
+		height: 703px;
+		padding: 40px 35px;
+		animation: .3s ease 1 slideInFromRight;
+	}
+	
+}
+
+.slide-to-right {
+	animation: 1s ease 1 slideToRight;
+}
+
+@keyframes slideToRight {
+	0% {
+		transform: translateX(0);
+	}
+
+	100% {
+		transform: translateX( 120% );
+	}
+}
+
+@keyframes slideInFromRight {
+	0% {
+	  transform: translateX(120%);
+	}
+	100% {
+	  transform: translateX(0);
+	}
+  }

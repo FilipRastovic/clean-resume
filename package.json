@@ -1,0 +1,49 @@
+{
+  "title": "Clear Resume",
+  "name": "clean-resume",
+  "version": "1.0.0",
+  "description": "Clean Resume template, perfect for developers, designers and other creative professionals who want their skills and experiences displayed in a very clean and effective way. No distractions, just straight forward information ideal for a messy world full of ads we live in.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/gulp watch"
+  },
+  "keywords": [
+    "clean",
+    "resume",
+    "template",
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "https://filiprastovic.com",
+  "bugs": {
+    "email": "filiporastovic@gmail.com"
+  },
+  "author": "Clarity Enhanced",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.9.0",
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "jquery.easing": "^1.4.1",
+    "magnific-popup": "^1.1.0",
+    "simplebar": "^4.1.0",
+    "filterizr": "2.2.3"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-clean-css": "4.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "2.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+.timeline {
+
+	.job-date {
+		font-size: 14px;
+	}
+	
+	@media (min-width: 992px) {
+		.job-date {
+			text-align: right;
+			position: relative;
+			
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				right: -5px;
+				width: 10px;
+				height: 10px;
+				border-radius: 150%;
+				background-color: $blue;
+				z-index: 3;
+				margin-top: 6px;
+			}
+		}
+
+		.job-description {
+			position: relative;
+			&:after {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 1px;
+				height: 100%;
+				background-color: grey;
+				z-index: 2;
+			}
+		}
+	}
+}
